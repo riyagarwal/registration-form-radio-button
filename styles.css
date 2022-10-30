@@ -1,0 +1,71 @@
+#registration-form {
+  width: 800px;
+  background-color: #eee;
+  box-shadow: -1px 1px 32px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 32px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.75);
+
+  /* centering the element */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  color: rgb(4, 49, 70);
+  text-align: center;
+}
+
+label {
+  color: rgb(4, 49, 70);
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.form-check-label {
+  margin-top: -2rem;
+  margin-right: 1.5rem;
+}
+
+input[type="text"] {
+  background-color: #eee;
+  border: none;
+  border-bottom: 1px solid rgb(106, 109, 106);
+}
+
+.gender-box {
+  display: flex;
+}
+
+#gender-label {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: rgb(6, 176, 46);
+  color: white;
+  transition: transform 0.2s;
+  border-color: rgb(6, 176, 46);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  background-color: rgb(4, 96, 25);
+  color: white;
+  transform: scale(1.2);
+}
+
+input[type="text"]:focus {
+  background-color: rgb(229, 252, 229);
+}
